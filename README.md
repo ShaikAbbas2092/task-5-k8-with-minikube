@@ -60,10 +60,21 @@
 
 ## Deliverables
 - `deployment.yaml` and `service.yaml` files used for app deployment.
-- Screenshots showing:
+- Outputs:
   - Pod status using `kubectl get pods`
+  - NAME                                READY   STATUS    RESTARTS   AGE
+nginx-deployment-778bf56674-mcdvg   1/1     Running   0          5m
+nginx-deployment-778bf56674-mjfvp   1/1     Running   0          5m
+
   - Service status using `kubectl get services`
+ NAME            TYPE       CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+kubernetes      ClusterIP  10.96.0.1       <none>        443/TCP          1h
+nginx-service   NodePort   10.104.220.15   <none>        80:30080/TCP     15m
+
+  - 
   - Scaling results after running `kubectl scale`
+deployment.apps/nginx-deployment scaled
+
 
 ## Conclusion
 This project helped understand how to:
