@@ -1,4 +1,4 @@
-  Kubernetes Cluster Setup and App Deployment with Minikube
+###  Kubernetes Cluster Setup and App Deployment with Minikube
 
 ## Tools Used
 - **Minikube**: to create a local Kubernetes cluster
