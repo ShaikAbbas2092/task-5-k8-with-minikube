@@ -43,19 +43,19 @@
 ### 5. Scale the Deployment
 - Scaled the deployment to increase pods:
   ```
-  kubectl scale deployment <deployment-name> --replicas=3
+  kubectl scale deployment deployment.yaml --replicas=3
   ```
 - Verified the new pods are running successfully.
 
 ### 6. View Logs and Details
 - Used:
   ```
-  kubectl describe pod <pod-name>
+  kubectl describe pod nginx-deployment-bf744486c-fw82
   ```
   to view detailed info and events.
 - Checked container logs:
   ```
-  kubectl logs <pod-name>
+  kubectl logs nginx-deployment-bf744486c-fw82
   ```
 
 ## Deliverables
