@@ -73,5 +73,3 @@ This project helped understand how to:
 - Scale applications dynamically.
 - Troubleshoot using pod descriptions and logs.
 
-Feel free to explore and extend this setup for different apps and more complex Kubernetes features!
-
